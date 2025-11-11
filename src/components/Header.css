@@ -1,0 +1,15 @@
+/* Show dropdown on hover */
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Keeps dropdown snug under the link */
+}
+
+/* Optional: smooth transition */
+.dropdown-menu {
+  transition: all 0.2s ease;
+}
+
+/* Optional: highlight dropdown links on hover */
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}

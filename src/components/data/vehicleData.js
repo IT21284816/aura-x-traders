@@ -170,21 +170,21 @@ const vehicleData = {
   Suzuki: [
     {
       name: "Suzuki Swift Sport",
-      img: "https://www.team-bhp.com/sites/default/files/styles/large/public/suzuki-swift-sport.jpg",
+      img: "https://autodesignmagazine.com/wp-content/uploads/2017/07/2017072501_suzuki_swift.jpg",
       desc:
         "The Suzuki Swift Sport is a fun, lightweight hot-hatch with sharp handling and distinctive styling. It’s ideal for import buyers seeking spirited driving, compact dimensions and Japanese engineering in a nimble package.",
       price: "$8,100",
     },
     {
       name: "Suzuki Jimny",
-      img: "https://upload.wikimedia.org/wikipedia/commons/7/78/Suzuki_Jimny_JPN_LHD_front.jpg",
+      img: "https://www.suzuki-kenya.com/media/gamme/modeles/images/1c9ddcda42c819445d16336c153491f0.png",
       desc:
         "The Suzuki Jimny is a compact off-road SUV with ladder-frame chassis, short wheel-base and iconic styling. Its rugged nature and niche appeal make it a unique import opportunity from Japan’s domestic market.",
       price: "$15,300",
     },
     {
       name: "Suzuki Alto",
-      img: "https://upload.wikimedia.org/wikipedia/commons/0/09/Suzuki_Alto_Japan_front.jpg",
+      img: "https://imgcdn.zigwheels.lk/large/gallery/color/37/818/suzuki-alto-color-797265.jpg",
       desc:
         "The Suzuki Alto is a micro-hatch perfect for city-driving and tight spaces. With low running costs, efficient engine and practical packaging, it makes a solid choice in import markets where compact size is valued.",
       price: "$5,400",
@@ -195,21 +195,21 @@ const vehicleData = {
   Nissan: [
     {
       name: "Nissan X-Trail",
-      img: "https://upload.wikimedia.org/wikipedia/commons/9/95/Nissan_X-Trail_T32_front.jpg",
+      img: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Nissan/X-Trail/3372/1749716960354/front-left-side-47.jpg",
       desc:
         "The Nissan X-Trail (also known as Rogue in some markets) offers a comfortable, mid-sized SUV with advanced safety systems and solid practicality. As a Japanese import, it gives access to value and variants not widely available overseas.",
       price: "$17,800",
     },
     {
       name: "Nissan GT-R",
-      img: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Nissan_GT-R_R35_front.jpg",
+      img: "https://media.ed.edmunds-media.com/nissan/gt-r/2024/oem/2024_nissan_gt-r_coupe_nismo_fq_oem_1_600.jpg",
       desc:
         "The Nissan GT-R is a legendary sports car built for extreme performance, twin-turbo power and precise all-wheel drive. Importing the JDM version provides unique specification and genuine value for enthusiasts.",
       price: "$95,000",
     },
     {
       name: "Nissan Fairlady Z",
-      img: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Nissan_Fairlady_Z_400Z_front.jpg",
+      img: "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/a59755fbc0aba2c23885998b10c6860b03c91a43",
       desc:
         "The Nissan Fairlady Z (400Z) continues the Z legacy with retro styling, modern performance and enthusiast appeal. As a JDM import, it offers a fresh take on Nissan’s iconic sports coupe line with global potential.",
       price: "$54,000",
@@ -220,21 +220,21 @@ const vehicleData = {
   Mazda: [
     {
       name: "Mazda MX-5 Miata",
-      img: "https://upload.wikimedia.org/wikipedia/commons/8/88/Mazda_MX-5_ND_front.jpg",
+      img: "https://www.usnews.com/object/image/00000192-f84f-d6b4-aff3-fd7fbd0e0001/25-mazda-miata-ext1.jpg?update-time=1730742994781&size=responsiveGallery&format=webp",
       desc:
         "The Mazda MX-5 Miata is a lightweight convertible sports car that offers fun-to-drive dynamics, minimalist design and exceptional handling. A desirable import from Japan for driving enthusiasts and collectors alike.",
       price: "$22,000",
     },
     {
       name: "Mazda CX-5",
-      img: "https://upload.wikimedia.org/wikipedia/commons/0/04/2017_Mazda_CX-5_front.jpg",
+      img: "https://i1.wp.com/www.washingtoninformer.com/wp-content/uploads/2015/03/2015-Mazda-CX-5.jpg?ssl=1",
       desc:
         "The Mazda CX-5 is a premium compact SUV blending elegance, strong performance and high build quality. Japanese imports often offer premium features at competitive prices in world markets.",
       price: "$19,500",
     },
     {
       name: "Mazda3 Hatchback",
-      img: "https://upload.wikimedia.org/wikipedia/commons/3/36/2019_Mazda_3_front.jpg",
+      img: "https://mazda.com.my/media/4zidmhfz/m3-herobanner-2022.jpg",
       desc:
         "The Mazda3 Hatchback offers stylish design, refined interior and spirited performance for everyday driving. As an import, it appeals to those seeking Japanese craftsmanship and value in a compact package.",
       price: "$14,300",
@@ -245,21 +245,21 @@ const vehicleData = {
   Lexus: [
     {
       name: "Lexus LS 500",
-      img: "https://upload.wikimedia.org/wikipedia/commons/6/63/2018_Lexus_LS_500_front.jpg",
+      img: "https://hips.hearstapps.com/hmg-prod/images/2025-lexus-ls-500-f-sport-awd-101-67e30ab19aa60.jpg?crop=0.635xw:0.476xh;0.274xw,0.404xh&resize=1200:*",
       desc:
         "The Lexus LS 500 is a flagship luxury sedan delivering quiet refinement, powerful twin-turbo V6 and a richly appointed cabin. A high-end Japanese import choice for executive transport or luxury fleets.",
       price: "$88,000",
     },
     {
       name: "Lexus NX",
-      img: "https://upload.wikimedia.org/wikipedia/commons/3/34/2022_Lexus_NX_350_front.jpg",
+      img: "https://media.ed.edmunds-media.com/lexus/nx/2026/oem/2026_lexus_nx_4dr-suv_350-f-sport-handling_fq_oem_1_1600.jpg",
       desc:
         "The Lexus NX is a premium compact crossover combining sharp design, advanced tech and a refined ride. Imported from Japan it offers sophisticated luxury with smaller SUV practicality.",
       price: "$36,500",
     },
     {
       name: "Lexus RX",
-      img: "https://upload.wikimedia.org/wikipedia/commons/5/57/2020_Lexus_RX_350_front.jpg",
+      img: "https://hips.hearstapps.com/hmg-prod/images/2025-lexus-rx350-premium-101-66f2dbe526c80.jpg?crop=0.730xw:0.547xh;0.0645xw,0.389xh&resize=1200:*",
       desc:
         "The Lexus RX is a mid-size luxury SUV offering smooth ride, upscale interior and proven reliability. A smart import option for those wanting Japanese luxury SUV credentials at good value.",
       price: "$45,000",
@@ -270,21 +270,21 @@ const vehicleData = {
   Daihatsu: [
     {
       name: "Daihatsu Mira e:S",
-      img: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Daihatsu_Mira_eS_front.jpg",
+      img: "https://paultan.org/image/2017/05/Daihatsu-Mira-e-S-23-e1494333088838.png",
       desc:
         "The Daihatsu Mira e:S is a kei-car designed for ultra-efficient urban use, featuring minimalist design, excellent fuel economy and compact size. Importing from Japan brings unique value in niche markets.",
       price: "$4,500",
     },
     {
       name: "Daihatsu Tanto",
-      img: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Daihatsu_Tanto_front.jpg",
+      img: "https://en.daihatsu-club.net/graphics/gallery/full/308-daihatsu-tanto-custom-rs-2wd-5ba-la650s-gbvz-front.jpg",
       desc:
         "The Daihatsu Tanto is a tall-box kei-minivan offering surprising interior space, sliding doors and versatile packaging in a compact footprint—ideal for city-based import markets.",
       price: "$5,200",
     },
     {
       name: "Daihatsu Copen",
-      img: "https://upload.wikimedia.org/wikipedia/commons/4/43/Daihatsu_Copen_front.jpg",
+      img: "https://www.modifiedrides.net/medias/images/liberty-walks-widebody-daihatsu-copen-gr-sport-1-.webp",
       desc:
         "The Daihatsu Copen is a stylish, small convertible with Japanese flair, lightweight chassis and fun-to-drive character—perfect for niche import buyers seeking personality at low cost.",
       price: "$9,300",
@@ -295,21 +295,21 @@ const vehicleData = {
   Subaru: [
     {
       name: "Subaru Impreza WRX",
-      img: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Subaru_WRX_STI_front.jpg",
+      img: "https://static0.topspeedimages.com/wordpress/wp-content/uploads/jpg/201706/2018-subaru-wrx-sti-drive.jpg?w=1600&h=900&fit=crop",
       desc:
         "The Subaru Impreza WRX (STI variant) pairs Subaru’s renowned all-wheel-drive system with turbocharged boxer power and rally-inspired suspension. A top choice for import enthusiasts seeking performance heritage.",
       price: "$28,900",
     },
     {
       name: "Subaru Forester",
-      img: "https://upload.wikimedia.org/wikipedia/commons/1/1f/2021_Subaru_Forester_front.jpg",
+      img: "https://hips.hearstapps.com/hmg-prod/images/2025-subaru-forester-sport-front-three-quarters-2-654ab04740826.jpg?crop=0.639xw:0.480xh;0.123xw,0.324xh&resize=1200:*",
       desc:
         "The Subaru Forester is a compact SUV favored for its robust build, symmetrical AWD and practical interior. Import value lies in its dependable performance in all weather conditions.",
       price: "$22,500",
     },
     {
       name: "Subaru BRZ",
-      img: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Subaru_BRZ_front.jpg",
+      img: "https://cdn.motor1.com/images/mgl/88mQ2/s3/2022-subaru-brz-exterior-front-quarter.jpg",
       desc:
         "The Subaru BRZ is a lightweight, rear-wheel-drive sports coupe co-developed with Toyota that emphasizes balance, driver engagement and pure fun, making it a standout import choice.",
       price: "$26,000",

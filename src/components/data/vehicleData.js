@@ -145,21 +145,21 @@ const vehicleData = {
   Honda: [
     {
       name: "Honda Civic",
-      img: "https://cdn.motor1.com/images/mgl/oo0x2/s1/2022-honda-civic-sedan.jpg",
+      img: "https://imgd.aeplcdn.com/664x374/n/cw/ec/27074/civic-exterior-right-front-three-quarter-148155.jpeg?q=80",
       desc:
         "The Honda Civic blends sporty design with everyday practicality. Its reliable drivetrain, comfortable interior and advanced driver assists make it a top pick for global importers. The 2022 generation introduces refined styling and improved ride comfort.",
       price: "$11,200",
     },
     {
       name: "Honda CR-V",
-      img: "https://cdn.motor1.com/images/mgl/Zv0Wb/s1/2023-honda-cr-v.jpg",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Honda_CR-V_e-HEV_Elegance_AWD_%28VI%29_%E2%80%93_f_14072024.jpg/1200px-Honda_CR-V_e-HEV_Elegance_AWD_%28VI%29_%E2%80%93_f_14072024.jpg",
       desc:
         "This Honda CR-V is a spacious compact SUV offering versatility, comfort and proven reliability. With Honda’s reputation behind it, the model appeals to families and import buyers wanting a well-rounded package from Japan’s finest.",
       price: "$18,500",
     },
     {
       name: "Honda Fit (Jazz)",
-      img: "https://cdn.motor1.com/images/mgl/VooVg/s1/honda-fit-2020.jpg",
+      img: "https://hips.hearstapps.com/hmg-prod/images/2020-honda-fit-mmp-1-1574789897.jpg?crop=1.00xw:0.750xh;0,0.137xh&resize=1200:*",
       desc:
         "The Honda Fit (also marketed as Jazz) is a clever, compact hatchback with flexible `Magic Seat` utility and excellent fuel economy. Import-wise, it fits urban markets while offering Honda’s engineering and long-term value.",
       price: "$6,500",

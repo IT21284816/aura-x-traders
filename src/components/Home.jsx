@@ -56,8 +56,8 @@ const Home = () => {
         ))}
       </Carousel>
       <NewArrivals />
-      <WhyChooseUsPage />
       <VehicleScroller speed={0.4} pauseOnHover={true} />
+      <WhyChooseUsPage />
     </div>
   );
 };

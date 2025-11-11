@@ -43,7 +43,7 @@ const Home = () => {
             {/* Text Overlay */}
             <Carousel.Caption className="d-flex flex-column justify-content-center align-items-center h-100">
               <h1 className="text-white fw-bold display-4 text-center mb-3">
-                Premium Japanese Vehicles
+                Quality Japanese Vehicles
               </h1>
               <p className="text-white fs-5 text-center mb-4">
                 Discover Quality Import Cars from Japan

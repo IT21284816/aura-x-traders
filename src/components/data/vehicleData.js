@@ -176,10 +176,10 @@ const vehicleData = {
       price: "$8,100",
     },
     {
-      name: "Suzuki Jimny",
-      img: "https://www.suzuki-kenya.com/media/gamme/modeles/images/1c9ddcda42c819445d16336c153491f0.png",
+      name: "Suzuki Wagon R FX 2025",
+      img: "https://drive.google.com/file/d/1KFKpsr-FUUJrJ2drPvte3TJun6qimosJ/view?usp=drive_link",
       desc:
-        "The Suzuki Jimny is a compact off-road SUV with ladder-frame chassis, short wheel-base and iconic styling. Its rugged nature and niche appeal make it a unique import opportunity from Japan’s domestic market.",
+        "The Suzuki Wagon R FX 2025 is a compact and practical hatchback, offering a blend of efficiency and comfort. With its modern design, the car features a fuel-efficient engine, spacious interior, and advanced safety features. Ideal for city driving, it provides a smooth ride and easy maneuverability.",
       price: "$15,300",
     },
     {

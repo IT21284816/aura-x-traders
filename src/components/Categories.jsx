@@ -1,48 +1,59 @@
 import React from "react";
 import { Link } from "react-router-dom"; // <-- import for navigation
 import "bootstrap/dist/css/bootstrap.min.css";
+import Suzuki from "../images/logos/Suzuki.png";
+import Honda from "../images/logos/Honda.png";
+import Toyota from "../images/logos/Toyota.png";
+import Nissan from "../images/logos/Nissan.png";
+import Mazda from "../images/logos/Mazda.png";
+import Lexus from "../images/logos/Lexus.png";
+import Daihatsu from "../images/logos/Daihatsu.png";
+import Subaru from "../images/logos/Subaru.png";
+
+
+
 
 const Categories = () => {
   // Car brands and logos
   const brands = [
     {
       name: "Toyota",
-      logo: "https://1000logos.net/wp-content/uploads/2018/02/Toyota-logo.png",
+      logo: Toyota,
       path: "/vehicles/Toyota",
     },
     {
       name: "Honda",
-      logo: "https://live.staticflickr.com/3453/3747525628_5f0fab0ba0_b.jpg",
+      logo: Honda,
       path: "/vehicles/Honda",
     },
     {
       name: "Suzuki",
-      logo: "https://pngimg.com/d/suzuki_PNG12291.png",
+      logo: Suzuki,
       path: "/vehicles/Suzuki",
     },
     {
       name: "Nissan",
-      logo: "https://images.seeklogo.com/logo-png/9/2/nissan-logo-png_seeklogo-99769.png",
+      logo: Nissan,
       path: "/vehicles/Nissan",
     },
     {
       name: "Mazda",
-      logo: "https://pngimg.com/d/car_logo_PNG1654.png",
+      logo: Mazda,
       path: "/vehicles/Mazda",
     },
     {
       name: "Lexus",
-      logo: "https://vincar.com.vn/wp-content/uploads/2025/03/logo-lexus.png",
+      logo: Lexus,
       path: "/vehicles/Lexus",
     },
     {
       name: "Daihatsu",
-      logo: "https://logos-world.net/wp-content/uploads/2021/08/Daihatsu-Logo.png",
+      logo: Daihatsu,
       path: "/vehicles/Daihatsu",
     },
     {
       name: "Subaru",
-      logo: "https://di-uploads-pod47.dealerinspire.com/subaruoftwinfalls/uploads/2023/03/Subaru-logo.jpeg",
+      logo: Subaru,
       path: "/vehicles/Subaru",
     },
   ];

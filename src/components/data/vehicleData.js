@@ -1,3 +1,4 @@
+import wagonrfx from "../../images/vehicles/Suzuki/wagon R FX.jpeg"
 const vehicleData = {
   Toyota: [
     {
@@ -177,7 +178,7 @@ const vehicleData = {
     },
     {
       name: "Suzuki Wagon R FX 2025",
-      img: "https://drive.google.com/file/d/1KFKpsr-FUUJrJ2drPvte3TJun6qimosJ/view?usp=drive_link",
+      img: wagonrfx, 
       desc:
         "The Suzuki Wagon R FX 2025 is a compact and practical hatchback, offering a blend of efficiency and comfort. With its modern design, the car features a fuel-efficient engine, spacious interior, and advanced safety features. Ideal for city driving, it provides a smooth ride and easy maneuverability.",
       price: "$15,300",

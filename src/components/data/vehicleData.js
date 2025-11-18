@@ -1,219 +1,133 @@
-import wagonrfx from "../../images/vehicles/Suzuki/wagon R FX.jpeg"
 const vehicleData = {
   Toyota: [
     {
-    name: "Toyota Corolla Axio",
-    img: "https://global.toyota/pages/news/images/2015/03/30/1330/002_2.jpg",
+    name: "TOYOTA YARIS CROSS Z",
+    img: "https://d31xyjind44oxc.cloudfront.net/wp-content/uploads/2024/07/yaris-cross-overview.jpg.webp",
     desc:
-      "The Corolla Axio offers a compact, reliable four-door sedan built for everyday use. With efficient petrol engines, comfortable seating for five and refined handling, it makes a smart choice for urban commuters and small families alike.",
-    price: "$7,800",
+      "The Toyota Yaris Cross Z is a stylish and versatile compact SUV that blends the practicality of a crossover with the efficiency of a compact car. Featuring a sleek design, advanced safety features, and hybrid powertrain options, it delivers excellent fuel economy. With a spacious interior and modern tech, it's perfect for city and off-road adventures.",
+    price: "$0",
   },
   {
-    name: "Toyota Land Cruiser Prado",
-    img: "https://global.toyota/pages/news/images/2024/04/18/1330/20240418_01_ogp.jpg",
+    name: "TOYOTA YARIS X",
+    img: "https://newjbadal.s3.eu-west-2.amazonaws.com/wp-content/uploads/2024/11/31100308/Toyota-Yaris-Hybrid-X-Jbadal-1.jpg",
     desc:
-      "A rugged yet refined luxury SUV with serious off-road capability. It combines full-time four-wheel drive, a spacious cabin and high ground clearance for challenging terrains.",
-    price: "$34,500",
+      "The Toyota Yaris X is a compact, efficient hatchback offering a balance of performance and fuel economy. With a sleek design, advanced safety features, and a comfortable interior, it's perfect for urban driving.",
+    price: "$0",
   },
   {
-    name: "Toyota Supra",
-    img: "https://di-uploads-pod11.dealerinspire.com/germaintoyotaofcolumbus/uploads/2025/07/Toyota-GR-Supra-Exterior.webp",
+    name: "TOYOTA RAIZE Z GRADE",
+    img: "https://gsat.jp/wp-content/uploads/2020/08/TOYOTA-RAIZE-Z-GRADE-2020.jpeg",
     desc:
-      "The Toyota Supra is a performance coupe that blends Japanese design with German engineering. Turbocharged power and agile handling make it a thrilling sports car.",
-    price: "$52,000",
+      "The Toyota Raize Z Grade is a compact SUV that combines modern design with practical features. It offers a powerful engine, advanced safety systems, and a well-equipped interior, making it ideal for urban and light off-road driving. Its stylish exterior and efficient performance make it a popular choice for city dwellers.",
+    price: "$0",
   },
   {
-    name: "Toyota Aqua (Prius C)",
-    img: "https://i.ytimg.com/vi/QlV-9uMgJ3A/maxresdefault.jpg",
+    name: "TOYOTA RAIZE Z HYBRID",
+    img: "https://global.toyota/pages/news/images/2019/11/05/1100/001.jpg",
     desc:
-      "A compact hybrid hatchback delivering outstanding fuel efficiency. Perfect for city driving with easy maneuverability and eco-friendly performance.",
-    price: "$9,400",
+      "The Toyota Raize Z Hybrid is a compact SUV with a fuel-efficient hybrid powertrain, offering an eco-friendly driving experience without compromising on performance. It features a stylish design, advanced safety technologies, and a spacious, tech-packed interior. Perfect for city driving, it provides a smooth ride with impressive fuel economy and reduced emissions.",
+    price: "$0",
   },
   {
-    name: "Toyota Alphard",
-    img: "https://global.toyota/pages/news/images/2023/06/21/1330/002.jpg",
+    name: "TOYOTA RAIZE X GRADE",
+    img: "https://www.carzworld.com.sg/cdn/shop/products/Raize-3_large_2x.jpg?v=1669951509",
     desc:
-      "The Alphard is a luxury minivan offering first-class comfort, a spacious interior, and advanced safety. Popular among business and VIP transport fleets.",
+      "The Toyota Raize X Grade is a practical, budget-friendly compact SUV offering efficient performance and a comfortable ride. It features a modern exterior, ample cabin space, essential safety features, and user-friendly technology, making it ideal for everyday urban driving.",
     price: "$25,000",
   },
   {
-    name: "Toyota Vitz",
-    img: "https://blog.carjunction.com/wp-content/uploads/2016/11/Toyota-vitz-japanese.png",
+    name: "TOYOTA YARIS CROSS GR SPORT",
+    img: "https://editorial.pxcrush.net/carsales/general/editorial/2023-toyota-yaris-cross-gr-sport-01-bed4.jpg?width=1024&height=682",
     desc:
-      "A reliable compact hatchback loved for its efficiency, smooth ride, and low maintenance cost. Ideal for new drivers or city use.",
-    price: "$6,800",
-  },
-  {
-    name: "Toyota Camry",
-    img: "https://www.buyatoyota.com/sharpr/vcr/adobe/dynamicmedia/deliver/urn:aaid:aem:c80ca7a6-85db-41c0-ae3c-2d7cfa11f207/image.png?",
-    desc:
-      "A midsize sedan that defines comfort and reliability. Its refined cabin, efficient engines, and sleek styling make it a top choice for professionals.",
-    price: "$19,500",
-  },
-  {
-    name: "Toyota Harrier",
-    img: "https://cdni.autocarindia.com/ExtraImages/20200622053226_harrier-gr.jpg",
-    desc:
-      "A stylish crossover blending premium comfort and hybrid efficiency. The Harrier delivers refined design and smooth driving dynamics.",
-    price: "$27,300",
-  },
-  {
-    name: "Toyota Crown",
-    img: "https://mystrongad.com/toyota/2025/crown/2025-toyota-crown-white.webp",
-    desc:
-      "A flagship sedan combining elegance with innovation. Offers powerful hybrid options, premium interior materials, and smooth highway cruising.",
-    price: "$31,200",
-  },
-  {
-    name: "Toyota Hilux",
-    img: "https://images.overdrive.in/wp-content/uploads/2024/02/2024-Toyota-Hilux-1.jpg",
-    desc:
-      "A durable pickup truck built for hard work and adventure. Trusted worldwide for its toughness, reliability, and off-road ability.",
-    price: "$28,000",
-  },
-  {
-    name: "Toyota HiAce",
-    img: "https://d2s8i866417m9.cloudfront.net/photo/29509968/photo/thumb-e1edaf7238f7c273e72bb84a12fb2b9e.jpg",
-    desc:
-      "A versatile van designed for transport and business use. Offers flexible seating and cargo options, efficient diesel and petrol engines.",
-    price: "$18,700",
-  },
-  {
-    name: "Toyota RAV4",
-    img: "https://global.toyota/pages/news/images/2019/04/10/1330_rav4/001.jpg",
-    desc:
-      "The RAV4 compact SUV combines rugged styling, advanced safety, and hybrid efficiency. Great for families with an adventurous spirit.",
-    price: "$24,600",
-  },
-  {
-    name: "Toyota CH-R",
-    img: "https://global.toyota/pages/news/images/2016/09/28/1330_C-HR/20160928_01_ogp.jpg",
-    desc:
-      "A bold and sporty compact crossover that turns heads. Offers responsive handling, premium tech, and hybrid efficiency.",
-    price: "$16,900",
-  },
-  {
-    name: "Toyota Passo",
-    img: "https://automobilio.info/auto/Toyota-Passo-II.jpg",
-    desc:
-      "A small hatchback with big personality. Easy to drive, easy to park, and perfect for urban lifestyles.",
-    price: "$5,900",
-  },
-  {
-    name: "Toyota Noah",
-    img: "https://i.ytimg.com/vi/0G7ougKUXDE/maxresdefault.jpg",
-    desc:
-      "A comfortable 7-seater minivan offering practicality and style. Popular for family trips and long drives.",
-    price: "$22,500",
-  },
-  {
-    name: "Toyota Estima (Previa)",
-    img: "https://paultan.org/image/2021/12/Toyota-Estima-Hybrid-630x354.jpeg",
-    desc:
-      "A versatile MPV known for reliability and interior comfort. Suitable for large families and travel enthusiasts.",
-    price: "$14,800",
-  },
-  {
-    name: "Toyota Sienta",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2022_Toyota_Sienta_Z_1.5_5BA-MXPC10G_%2820220823%29.jpg/1200px-2022_Toyota_Sienta_Z_1.5_5BA-MXPC10G_%2820220823%29.jpg",
-    desc:
-      "A compact 7-seater with sliding doors and hybrid technology. Great choice for city families who need space without bulk.",
-    price: "$11,200",
-  },
-  {
-    name: "Toyota Mark X",
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Toyota_MARK_X_250S_%28DBA-GRX130-AETSH%29_%28cropped%29.jpg/1200px-Toyota_MARK_X_250S_%28DBA-GRX130-AETSH%29_%28cropped%29.jpg",
-    desc:
-      "A sporty rear-wheel-drive sedan offering smooth acceleration and elegant styling. Loved by enthusiasts for its driving feel.",
-    price: "$15,600",
-  },
-  {
-    name: "Toyota Probox",
-    img: "https://cdn.motor1.com/images/mgl/JO86mQ/s1/toyota-probox-gx-front.jpg",
-    desc:
-      "A practical, no-nonsense station wagon ideal for business or cargo. Known for durability and low running costs.",
-    price: "$7,200",
-  },
-  {
-    name: "Toyota Century",
-    img: "https://i.ytimg.com/vi/28zXc4YTHOk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqkFFpnUTtCXcWqMySOh3LY9PiZA",
-    desc:
-      "The ultimate symbol of Japanese luxury. Handmade craftsmanship, V8 hybrid engine, and serene ride comfort make it Toyota’s crown jewel.",
-    price: "$120,000",
+      "The Toyota Yaris Cross GR Sport is a performance-focused compact SUV with sporty styling, sport-tuned suspension, and advanced features. It offers enhanced driving dynamics, a stylish exterior, and modern tech for urban adventures.",
+    price: "$0",
   },
   ],//
 
   Honda: [
     {
-      name: "Honda Civic",
-      img: "https://imgd.aeplcdn.com/664x374/n/cw/ec/27074/civic-exterior-right-front-three-quarter-148155.jpeg?q=80",
+      name: "HONDA VEZEL Z GRADE 2025",
+      img: "https://amstradings.lk/wp-content/uploads/2025/03/honda_vezel_ehev_z_2024-3840x2160-1-1024x576.jpg",
       desc:
-        "The Honda Civic blends sporty design with everyday practicality. Its reliable drivetrain, comfortable interior and advanced driver assists make it a top pick for global importers. The 2022 generation introduces refined styling and improved ride comfort.",
-      price: "$11,200",
+        "The 2025 Honda Vezel Z Grade features a 1.5 L e:HEV hybrid engine, 7-speed CVT, LED lights, leather-fabric seats, Honda Sensing safety suite, adaptive cruise, reverse camera, and alloy wheels.",
+      price: "$0",
     },
     {
-      name: "Honda CR-V",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Honda_CR-V_e-HEV_Elegance_AWD_%28VI%29_%E2%80%93_f_14072024.jpg/1200px-Honda_CR-V_e-HEV_Elegance_AWD_%28VI%29_%E2%80%93_f_14072024.jpg",
+      name: "HONDA VEZEL RS 2025",
+      img: "https://static.carfromjapan.com/car_112def1a-f2b4-4622-8d10-31f3e4ebad6d_640_0",
       desc:
-        "This Honda CR-V is a spacious compact SUV offering versatility, comfort and proven reliability. With Honda’s reputation behind it, the model appeals to families and import buyers wanting a well-rounded package from Japan’s finest.",
-      price: "$18,500",
+        "The 2025 Honda Vezel RS features a 1.5 L e:HEV hybrid engine (i-VTEC + electric), 2WD or 4WD, e-CVT transmission, LED lights, 18″ alloy wheels, Honda Sensing safety suite, and sporty RS styling.",
+      price: "$0",
     },
     {
-      name: "Honda Fit (Jazz)",
-      img: "https://hips.hearstapps.com/hmg-prod/images/2020-honda-fit-mmp-1-1574789897.jpg?crop=1.00xw:0.750xh;0,0.137xh&resize=1200:*",
+      name: "HONDA CITY RS 2022",
+      img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJIoME7fsPwQp3z83LZdGSW6f7pGYEKN80kjm-FURoeofeg9wvZ0o3VP9EDZAygfrzHzoHjFWCcBanRfmdzwnaXni9WfFJh3RxCEPJ9pm30-t2Scuz_Q_-93iBxFKQi8vhfb-3F8091iGL6P7iODrzYTqPWK6yzOi_fZhGlZU9VpMmVEuozDxbUz4BYw/s1024/2022_honda_city_rs_01.jpg",
       desc:
-        "The Honda Fit (also marketed as Jazz) is a clever, compact hatchback with flexible `Magic Seat` utility and excellent fuel economy. Import-wise, it fits urban markets while offering Honda’s engineering and long-term value.",
-      price: "$6,500",
+        "The 2022 Honda City RS features a 1.5L hybrid engine, e-CVT transmission, sporty RS styling, Honda Sensing safety suite, LED lighting, spacious cabin, advanced infotainment, and excellent fuel efficiency.",
+      price: "$0",
     },
-    // … add 9 more entries here
+     {
+      name: "HONDA CITY RS 2025",
+      img: "https://i.ytimg.com/vi/RIJWAUXVfmA/maxresdefault.jpg",
+      desc:
+        "The 2025 Honda City RS packs a 1.0-liter VTEC turbo engine delivering 122 PS, CVT transmission, sporty RS styling, 16″ alloy wheels, LED lights, Apple CarPlay/Android Auto, and Honda Sensing safety.",
+      price: "$0",
+    },
   ],
 
   Suzuki: [
     {
-      name: "Suzuki Swift Sport",
-      img: "https://autodesignmagazine.com/wp-content/uploads/2017/07/2017072501_suzuki_swift.jpg",
-      desc:
-        "The Suzuki Swift Sport is a fun, lightweight hot-hatch with sharp handling and distinctive styling. It’s ideal for import buyers seeking spirited driving, compact dimensions and Japanese engineering in a nimble package.",
-      price: "$8,100",
+      name: "SUZUKI ALTO HYBRID",
+      img: "https://picture1.goo-net.com/7001300069/30250119/J/70013000693025011900100.jpg",
+      desc: "The 2023 Suzuki Alto Hybrid is a compact and efficient city car, featuring a 1.0L hybrid engine that delivers impressive fuel economy (30-35 km/l). With a sleek design, advanced safety features, and modern infotainment options, it's perfect for budget-conscious drivers seeking a reliable, eco-friendly option.",
+      price: "$0",
     },
     {
-      name: "Suzuki Wagon R FX 2025",
-      img: wagonrfx, 
+      name: "Suzuki Wagon R FX 2024",
+      img: "https://d36dyyw8x5qpnf.cloudfront.net/photos_new/2024-11-02/suzuki-wagon-r-fx-mt-95968Terracotta%20Pink%20Metallic.jpg", 
       desc:
         "The Suzuki Wagon R FX 2025 is a compact and practical hatchback, offering a blend of efficiency and comfort. With its modern design, the car features a fuel-efficient engine, spacious interior, and advanced safety features. Ideal for city driving, it provides a smooth ride and easy maneuverability.",
-      price: "$15,300",
+      price: "$0",
     },
     {
-      name: "Suzuki Alto",
-      img: "https://imgcdn.zigwheels.lk/large/gallery/color/37/818/suzuki-alto-color-797265.jpg",
+      name: "Suzuki Wagon R FX 2023",
+      img: "https://www.automobile-catalog.com/img/pictonorzw/suzuki/2022-suzuki-wagon-r-fx-4.jpg", 
       desc:
-        "The Suzuki Alto is a micro-hatch perfect for city-driving and tight spaces. With low running costs, efficient engine and practical packaging, it makes a solid choice in import markets where compact size is valued.",
-      price: "$5,400",
+        "The Suzuki Wagon R FX 2025 is a compact and practical hatchback, offering a blend of efficiency and comfort. With its modern design, the car features a fuel-efficient engine, spacious interior, and advanced safety features. Ideal for city driving, it provides a smooth ride and easy maneuverability.",
+      price: "$0",
+    },
+    
+    {
+      name: "SUZUKI EVERY PC",
+      img: "https://cache2.pakwheels.com/system/car_generation_pictures/2935/original/Suzuki-Every-11th-Gen.jpg?1444115399",
+      desc:
+        "The Suzuki Every PC is a compact, practical Japanese microvan designed for efficient urban transport. It offers a spacious cabin, flexible cargo capacity, and excellent fuel economy. With its reliable engine, sliding doors, and easy maneuverability, the Every PC is ideal for small businesses, family use, and daily commuting.",
+      price: "$0",
     },
     // … add 9 more entries here
   ],
 
   Nissan: [
     {
-      name: "Nissan X-Trail",
-      img: "https://stimg.cardekho.com/images/carexteriorimages/930x620/Nissan/X-Trail/3372/1749716960354/front-left-side-47.jpg",
+      name: "NISSAN ROOX HIGHWAY STAR X 2023",
+      img: "https://picture1.goo-net.com/070/0700510/J/0700510A20250215G00203.jpg",
       desc:
-        "The Nissan X-Trail (also known as Rogue in some markets) offers a comfortable, mid-sized SUV with advanced safety systems and solid practicality. As a Japanese import, it gives access to value and variants not widely available overseas.",
-      price: "$17,800",
+        "The 2023 Nissan Roox Highway Star X is a 660 cc kei MPV with CVT, sliding doors, 20.8 km/L fuel economy, Intelligent Around-View Monitor, LED lights, and compact urban practicality.",
+      price: "$0",
     },
     {
-      name: "Nissan GT-R",
-      img: "https://media.ed.edmunds-media.com/nissan/gt-r/2024/oem/2024_nissan_gt-r_coupe_nismo_fq_oem_1_600.jpg",
+      name: "NISSAN DAYZ HIGHWAY STAR 2023",
+      img: "https://global.nissannews.com/releases/release-fc1499a2382c4bfa3a3592916009232b/images/e10da7f375fded136d732c67bae7ece1f27d81dc",
       desc:
-        "The Nissan GT-R is a legendary sports car built for extreme performance, twin-turbo power and precise all-wheel drive. Importing the JDM version provides unique specification and genuine value for enthusiasts.",
-      price: "$95,000",
+        "The 2023 Nissan Dayz Highway Star packs a 659 cc 3-cyl engine, CVT transmission, 20+ km/L fuel efficiency, 2WD/4WD options, alloy wheels, LED lighting, and compact, efficient urban design.",
+      price: "$0",
     },
     {
-      name: "Nissan Fairlady Z",
-      img: "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/a59755fbc0aba2c23885998b10c6860b03c91a43",
+      name: "NISSAN ALMERA VL",
+      img: "https://www-asia.nissan-cdn.net/content/dam/Nissan/th/vehicles/VLP/almera-my23/new/spec/vl-spec.jpg",
       desc:
-        "The Nissan Fairlady Z (400Z) continues the Z legacy with retro styling, modern performance and enthusiast appeal. As a JDM import, it offers a fresh take on Nissan’s iconic sports coupe line with global potential.",
-      price: "$54,000",
+        "The 2025 Nissan Almera VL packs a 1.0L turbocharged 3-cyl engine (100 PS / 152 Nm), X-Tronic CVT, leather interior, 8 airbags, LED lights, Apple CarPlay, and large 482 L boot.",
+      price: "$0",
     },
     // … add 9 more entries here
   ],
@@ -274,21 +188,14 @@ const vehicleData = {
       img: "https://paultan.org/image/2017/05/Daihatsu-Mira-e-S-23-e1494333088838.png",
       desc:
         "The Daihatsu Mira e:S is a kei-car designed for ultra-efficient urban use, featuring minimalist design, excellent fuel economy and compact size. Importing from Japan brings unique value in niche markets.",
-      price: "$4,500",
+      price: "$0",
     },
     {
-      name: "Daihatsu Tanto",
-      img: "https://en.daihatsu-club.net/graphics/gallery/full/308-daihatsu-tanto-custom-rs-2wd-5ba-la650s-gbvz-front.jpg",
+      name: "DIHATSU MOVE L",
+      img: "https://images.kobemotor.com/images/v76460-ai002.jpg",
       desc:
-        "The Daihatsu Tanto is a tall-box kei-minivan offering surprising interior space, sliding doors and versatile packaging in a compact footprint—ideal for city-based import markets.",
-      price: "$5,200",
-    },
-    {
-      name: "Daihatsu Copen",
-      img: "https://www.modifiedrides.net/medias/images/liberty-walks-widebody-daihatsu-copen-gr-sport-1-.webp",
-      desc:
-        "The Daihatsu Copen is a stylish, small convertible with Japanese flair, lightweight chassis and fun-to-drive character—perfect for niche import buyers seeking personality at low cost.",
-      price: "$9,300",
+        "The Daihatsu Move L is a compact kei car featuring a fuel-efficient engine, spacious tall-boy interior, practical urban maneuverability, reliable performance, and essential comfort features suitable for daily city driving.",
+      price: "$0",
     },
     // … add 9 more entries here
   ],
